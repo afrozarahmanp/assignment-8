@@ -1,0 +1,49 @@
+.blogPost img{
+    width: 100%;
+
+/* width: 845px;
+height: 450px; */
+}
+
+.author-info img{
+    margin-top: 20px;
+width: 60px;
+height: 60px;
+}
+.author-info{
+    
+    display: flex;
+}
+
+
+h3{
+    padding-left: 20px;
+    margin-top: 26px;
+    margin-bottom: 0;
+}
+p{
+    padding-left: 20px;
+    margin: 0;
+}
+
+.post-time{
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-time-para{ 
+    margin-top: 25px;
+}
+
+hr{
+ margin-bottom: 25px;
+}
+
+.read-btn{
+ background-color: #dfe6f2;
+ margin-bottom: 20px;
+}
+
+.read-btn:hover{
+    background-color: #a9bcde;
+}
