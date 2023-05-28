@@ -1,0 +1,72 @@
+[
+    {
+      "id": 1,
+      "authorName": "John Smith",
+      "image": "https://example.com/author1.jpg",
+      "blogName": "10 Tips for Better Sleep",
+      "blogImage": "https://example.com/blog1.jpg"
+    },
+    {
+      "id": 2,
+      "authorName": "Jane Doe",
+      "image": "https://example.com/author2.jpg",
+      "blogName": "The Benefits of Meditation",
+      "blogImage": "https://example.com/blog2.jpg"
+    },
+    {
+      "id": 3,
+      "authorName": "David Williams",
+      "image": "https://example.com/author3.jpg",
+      "blogName": "How to Stay Productive While Working From Home",
+      "blogImage": "https://example.com/blog3.jpg"
+    },
+    {
+      "id": 4,
+      "authorName": "Jessica Lee",
+      "image": "https://example.com/author4.jpg",
+      "blogName": "5 Easy DIY Home Improvement Projects",
+      "blogImage": "https://example.com/blog4.jpg"
+    },
+    {
+      "id": 5,
+      "authorName": "Michael Brown",
+      "image": "https://example.com/author5.jpg",
+      "blogName": "The Importance of Regular Exercise",
+      "blogImage": "https://example.com/blog5.jpg"
+    },
+    {
+      "id": 6,
+      "authorName": "Sarah Jackson",
+      "image": "https://example.com/author6.jpg",
+      "blogName": "10 Delicious and Healthy Snack Recipes",
+      "blogImage": "https://example.com/blog6.jpg"
+    },
+    {
+      "id": 7,
+      "authorName": "Kevin Chen",
+      "image": "https://example.com/author7.jpg",
+      "blogName": "The Best Apps for Time Management",
+      "blogImage": "https://example.com/blog7.jpg"
+    },
+    {
+      "id": 8,
+      "authorName": "Emily Davis",
+      "image": "https://example.com/author8.jpg",
+      "blogName": "How to Build a Successful Online Business",
+      "blogImage": "https://example.com/blog8.jpg"
+    },
+    {
+      "id": 9,
+      "authorName": "James Wilson",
+      "image": "https://example.com/author9.jpg",
+      "blogName": "10 Simple Ways to Reduce Stress",
+      "blogImage": "https://example.com/blog9.jpg"
+    },
+    {
+      "id": 10,
+      "authorName": "Natalie Kim",
+      "image": "https://example.com/author10.jpg",
+      "blogName": "The Benefits of Traveling Alone",
+      "blogImage": "https://example.com/blog10.jpg"
+    }
+  ]
