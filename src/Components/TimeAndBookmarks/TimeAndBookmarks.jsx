@@ -10,7 +10,9 @@ const TimeAndBookmarks = (props) => {
                 <h4>
                     Bookmarked Blogs : {props.totalBlog.length}
                 </h4>
+
                 {
+
                     props.totalBlog.map(blog => <h5> {blog.title}
                     </h5>)
                 }

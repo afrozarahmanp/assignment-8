@@ -11,9 +11,16 @@ const Blogs = () => {
     const [totalBlog, setTotalBlog] = useState([])
 
     const bookmarkCount = (bookmark)=>{
-        const newTotalBlog = [...totalBlog, bookmark]
-        setTotalBlog(newTotalBlog);
-        console.log(newTotalBlog)
+        if(totalBlog.includes(bookmark)){
+            alert('Already exists')
+        }
+        else {
+            const newTotalBlog = [...totalBlog, bookmark]
+            setTotalBlog(newTotalBlog);
+            console.log(newTotalBlog)
+        }
+  
+
     }
 
 
