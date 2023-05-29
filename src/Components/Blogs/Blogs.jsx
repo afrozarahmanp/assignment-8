@@ -7,6 +7,16 @@ import './Blogs.css'
 const Blogs = () => {
 
     const [blog, setBlog] = useState([])
+    const [totalMin, setTotalMin] = useState(0)
+    const [totalBlog, setTotalBlog] = useState([])
+
+    const bookmarkCount = (bookmark)=>{
+        const newTotalBlog = [...totalBlog, bookmark]
+        setTotalBlog(newTotalBlog);
+        console.log(newTotalBlog)
+    }
+
+
 
     useEffect(() => {
         fetch('data.json')
@@ -15,6 +25,12 @@ const Blogs = () => {
 
     }, [])
 
+    const handleTime = (min) => {
+       const newMin = totalMin + min;
+       setTotalMin(newMin);
+       console.log(newMin) 
+    }
+
     return (
         <div className='blogs'>
             <div>
@@ -22,13 +38,20 @@ const Blogs = () => {
                 blog.map(blogData => <BlogsPosts
                     key={blogData.id}
                     blogData = {blogData}
+                    handleTime = {handleTime}
+                    bookmarkCount = {bookmarkCount}
 
                 ></BlogsPosts>)
             }
             </div>
   
 
-            <TimeAndBookmarks></TimeAndBookmarks>
+            <TimeAndBookmarks
+             min= {totalMin}
+             totalBlog ={totalBlog}
+            
+            
+            ></TimeAndBookmarks>
 
 
         </div>
