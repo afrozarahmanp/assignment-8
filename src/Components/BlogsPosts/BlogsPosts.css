@@ -29,6 +29,7 @@ p{
 .post-time{
     display: flex;
     justify-content: space-between;
+
 }
 
 .post-time-para{ 

@@ -1,3 +1,27 @@
+.bookmark-container{
+    margin-left: 50px;
+}
+
+
 .time-spent{
-    
+text-align: center;
+color: 
+#6047EC;
+padding: 15px;  
+box-sizing: border-box;
+background: rgba(96, 71, 236, 0.1);
+border: 1px solid #6047EC;
+border-radius: 8px;
+}
+
+.bookmark-blogs{
+    padding: 15px;
+    background: rgba(17, 17, 17, 0.05);
+border-radius: 8px;
+}
+.bookmark-blogs h5{
+    margin: 15px;
+    padding: 15px;
+    background: #FFFFFF;
+border-radius: 8px;
 }

@@ -2,11 +2,11 @@
 import './TimeAndBookmarks.css'
 const TimeAndBookmarks = (props) => {
     return (
-        <div >
+        <div className='bookmark-container'>
             <h4 className='time-spent'>
-                Spent time on read = {props.min} min
+                Spent time on read : {props.min} min
             </h4>
-            <div>
+            <div className='bookmark-blogs'>
                 <h4>
                     Bookmarked Blogs : {props.totalBlog.length}
                 </h4>
